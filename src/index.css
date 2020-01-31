@@ -1,0 +1,3032 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Italic", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #43425d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.outlooklogo {
+  margin-left: -728px;
+  margin-top: -258px;
+}
+.spinnerStyle {
+  margin-left: 653px;
+  margin-top: 240px;
+  height: 100px;
+}
+.ui-spinner-input {
+  width: 70px !important;
+}
+
+.image-style {
+  width: 100%;
+  height: 677px;
+  max-height: 100%;
+}
+.logo {
+  margin-left: 60%;
+  margin-top: 0%;
+  width: 25%;
+}
+.logo-svg {
+  margin-top: 2%;
+  color: white;
+  margin-left: 60%;
+  font-size: 25px;
+}
+.user-img {
+  width: 24px;
+  height: 24px;
+}
+.password-img {
+  margin-top: -5px;
+  width: 20px;
+  height: 20px;
+}
+.submit {
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 27%;
+}
+
+/* thead tr th {
+  display: none;
+}
+
+thead tr th i {
+  display: none;
+} */
+
+tbody + thead {
+  display: none;
+}
+
+td {
+  font-size: 12px !important;
+}
+
+div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57 {
+  display: none;
+}
+
+.bs-select {
+  display: none;
+}
+
+th {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.error  {
+  color: red;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 6%;
+}
+.forgotPassError  {
+  color: red;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 43%;
+  margin-top: 6%;
+}
+.bckgImage {
+  background-image: url("../src/assets/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.merchantActivation {
+  width: 85%;
+  height: 179px;
+  border: #43425d;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 20% !important;
+  font-size: 15px !important;
+  color: #43425d !important;
+}
+.merchantActLine {
+  height: 5px;
+  width: 60%;
+  background-color: #54a4f3;
+  margin-left: 20%;
+  margin-top: 12px;
+}
+.outlookbuttonlogo {
+  width: 53% !important;
+}
+.stateSettle {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 18% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+.stateSettleLine {
+  height: 5px;
+  width: 74%;
+  background-color: #54f3ae;
+  margin-left: 13%;
+  margin-top: 12px;
+}
+.systemLog {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 11% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+
+.systemLogLine {
+  height: 5px;
+  width: 34%;
+  background-color: #ff533d;
+  margin-left: 33%;
+  margin-top: 12px;
+}
+.payerAccountEnquiry {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important  ;
+  margin-left: 20% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+.payerAccountEnquiryLine {
+  height: 5px;
+  width: 48%;
+  background-color: #a239ca;
+  margin-left: 26%;
+  margin-top: 12px;
+}
+.payerLoadFunds {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 18% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+
+.payerLoadFundsLine {
+  height: 5px;
+  width: 50%;
+  background-color: #a239ca;
+  margin-left: 25%;
+  margin-top: 12px;
+}
+
+.merchantSettlementCardTitle {
+  color: #4d4f5c;
+  font-size: 20px;
+}
+.merchantSettlePhoneIconDiv {
+  display: inline-block;
+  margin-top: 10%;
+}
+.merchantMobileNumbDiv {
+  display: inline-block;
+}
+.userAvatar {
+  margin-top: 3%;
+  margin-left: 40%;
+  display: inline-block;
+}
+.logOut {
+  color: #bcbccb;
+  margin-top: 3%;
+  display: inline-block;
+}
+.merchantActivationCardView {
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+.merchantActionCardView {
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+.merchantActivationCardTitle {
+  color: #4d4f5c;
+  font-size: 20px;
+}
+.statementSettlementsCardView {
+  width: 80%;
+  height: 450px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.statementSettlementSubmit {
+  margin-top: 8% !important;
+  width: 12%;
+  margin-left: 42% !important;
+}
+.accountEnquirycardView {
+  width: 80%;
+  height: 450px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.accountSubmit {
+  margin-top: 8% !important;
+  width: 12%;
+  margin-left: 42% !important;
+}
+.accountLabel {
+  margin-top: 4% !important;
+  display: inline-block;
+}
+.loadFundsCardView {
+  width: 80%;
+  height: 450px;
+  margin-top: 2%;
+  margin-left: 12%;
+}
+.statementCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.merchantSettlementCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.merchantAccountEnquiryCardView {
+  width: 80%;
+  height: 530px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.payerAccountEnquiryCardView {
+  width: 80%;
+  height: 530px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.profileCardView {
+  width: 80%;
+  margin-top: 3%;
+  height: 500px;
+  margin-left: 12%;
+}
+.cashRegisterCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.helpCardView {
+  width: 80%;
+  height: 100%;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.templateCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.payerTemplateCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.merchantTemplateCardView {
+  width: 80%;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.statementSettlementCardTitle {
+  color: #4d4f5c;
+  font-size: large;
+}
+.statement {
+  font-size: medium;
+  margin-left: 10%;
+  color: #43425d;
+}
+.settlement {
+  font-size: medium;
+  margin-left: 10%;
+  color: #43425d;
+}
+.merchantPhoneIconDiv {
+  margin-top: 9%;
+}
+
+.merchantLabelInAccount {
+  font-size: medium;
+  margin-left: 10%;
+  color: #43425d;
+}
+.payerLabelInAccount {
+  font-size: medium;
+  margin-left: 20%;
+  color: #43425d;
+}
+
+.displayInline {
+  display: inline-block;
+}
+
+.phoneIcon {
+  width: 20px;
+  height: 20px;
+}
+.phoneDiv {
+  margin-top: 8%;
+  display: inline-block;
+}
+.generateButton {
+  margin-top: 50px !important;
+  margin-left: 60% !important;
+  width: 120px;
+}
+.submitButton {
+  margin-top: 50px !important;
+  width: 120px;
+}
+
+.margin {
+  margin-top: 2%;
+}
+
+.statusStyle {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.customSelect {
+  width: 257px;
+}
+.activationSubmit {
+  margin-top: 2% !important;
+  width: 22%;
+  margin-left: 73% !important;
+}
+.accountEnquiryCardTitle {
+  color: #4d4f5c;
+  font-size: 20px;
+}
+.loginText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #808080;
+  margin-left: 115px;
+  width: 25%;
+  text-align: center;
+}
+.forgotPassText {
+  font-size: 14px;
+  margin-left: 199px;
+  font-style: italic;
+  margin-top: 4%;
+}
+.loginButton {
+  margin-left: 115px !important;
+  margin-top: 5% !important;
+  width: 25%;
+  font-size: 13px !important;
+}
+.quarterMargin {
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.userImage {
+  width: 24px;
+  height: 24px;
+  margin-top: 43px;
+}
+.passImage {
+  width: 24px;
+  height: 24px;
+  margin-top: 38px;
+}
+
+input[type="text"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+.cusMarginLeft {
+  margin-left: 8%;
+}
+
+.payerInTemplate {
+  font-size: medium;
+  margin-left: 2%;
+  margin-top: 15%;
+  color: #43425d;
+}
+.merchantInTemplate {
+  font-size: medium;
+  margin-left: 2%;
+  margin-top: 15%;
+  color: #43425d;
+}
+.templateAccountIcon {
+  margin-top: 40px;
+}
+.templateAccountSubmit {
+  margin-top: 8% !important;
+  margin-left: 45% !important;
+  width: 12%;
+  text-align: center;
+}
+
+.merchantTemplateSubmit {
+  margin-top: 8% !important;
+  margin-left: 41% !important;
+  width: 13%;
+  text-align: center;
+}
+
+.payerTemplateSubmit {
+  margin-top: 8% !important;
+  margin-left: 41% !important;
+  width: 13%;
+  text-align: center;
+}
+
+.profileSubmit {
+  margin-top: 50px !important;
+  margin-left: 40% !important;
+  width: 100px;
+  height: 30%;
+}
+.profileEditBtn {
+  margin-left: 15px !important;
+  width: 100px;
+  /* height: 100px; */
+}
+.userIconProfile {
+  width: 21px;
+  height: 21px;
+  margin-top: 38px;
+}
+.phoneIconProfile {
+  width: 20px;
+  height: 20px;
+  margin-top: 38px;
+}
+.locationIconProfile {
+  width: 20px;
+  height: 20px;
+  margin-top: 38px;
+}
+.mailIconProfile {
+  width: 20px;
+  height: 20px;
+  margin-top: 38px;
+}
+.profileCardTitle {
+  font-size: 20px;
+}
+.forgotPasswordTextP {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-top: 30%; */
+  margin-left: 65px;
+  color: #808080;
+}
+.forgotPassSubmitBtn {
+  margin-top: 10% !important;
+  margin-left: 90px !important;
+  width: 110px;
+  font-size: 12px !important;
+}
+.userIconInForgotPass {
+  width: 24px;
+  height: 24px;
+  margin-top: 38px;
+  color: #808080;
+}
+.BackToLoginDiv {
+  margin-left: 100px;
+  margin-top: 4%;
+}
+.resetPassWordText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-left: 90px;
+  color: #808080;
+}
+.resetPassSubmitBtn {
+  margin-top: 9% !important;
+  margin-left: 120px !important;
+  font-size: 12px;
+  width: 100px;
+}
+.passIconInResetPass {
+  width: 24px;
+  height: 24px;
+  margin-top: 35px !important;
+}
+.userIconInResetPass {
+  width: 24px;
+  height: 24px;
+  margin-top: 38px !important;
+}
+.resetPassErrorStyle {
+  margin-right: 150px;
+
+  margin-left: 40px;
+
+  margin-top: 20px;
+
+  padding: 15px;
+
+  font-style: italic;
+
+  color: red;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  text-align: center;
+
+  width: 250px;
+}
+.forgotPassErrorStyle {
+  margin-right: 150px;
+
+  margin-left: 45px;
+
+  margin-top: 20px;
+
+  text-align: center;
+
+  padding: 15px;
+
+  font-style: italic;
+
+  color: red;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  width: 200px;
+}
+.forgotPassMargin {
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.resetPassMargin {
+  margin-left: 25%;
+}
+.loginErrorStyle {
+  margin-right: 150px;
+
+  margin-left: 16px;
+  margin-top: 20px;
+
+  padding: 15px;
+
+  font-style: italic;
+
+  color: red;
+  font-size: 15px;
+
+  font-weight: bold;
+
+  text-align: center;
+
+  width: 180px;
+}
+.profileErrorStyle {
+  margin-left: 38.2%;
+  margin-top: 20px;
+
+  padding: 15px;
+
+  font-style: italic;
+
+  color: red;
+  font-size: 15px;
+
+  font-weight: bold;
+
+  text-align: center;
+  /* background-color: aliceblue; */
+  width: 130px;
+}
+.textFieldMargin {
+  margin-left: 10px;
+  width: 256px !important;
+}
+.MerchantAccountLimitInput {
+  margin-left: -20%;
+}
+.payerAccountLimitInput {
+  margin-left: -10%;
+}
+
+.payerLoadFundsInput {
+  margin-left: -21%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .merchantActivation {
+    width: 90%;
+    height: 179px;
+    border: #43425d;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 20% !important;
+    font-size: 15px !important;
+    color: #43425d !important;
+  }
+  .merchantActLine {
+    height: 5px;
+    width: 60%;
+    background-color: #54a4f3;
+    margin-left: 20%;
+    margin-top: 12px;
+  }
+  .stateSettle {
+    width: 90%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 18% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .stateSettleLine {
+    height: 5px;
+    width: 74%;
+    background-color: #54f3ae;
+    margin-left: 13%;
+    margin-top: 12px;
+  }
+  .systemLog {
+    width: 90%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 11% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .systemLogLine {
+    height: 5px;
+    width: 34%;
+    background-color: #ff533d;
+    margin-left: 33%;
+    margin-top: 12px;
+  }
+  .payerAccountEnquiry {
+    width: 90%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important  ;
+    margin-left: 20% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .payerAccountEnquiryLine {
+    height: 5px;
+    width: 48%;
+    background-color: #a239ca;
+    margin-left: 26%;
+    margin-top: 12px;
+  }
+  .payerLoadFunds {
+    width: 90%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 18% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .payerLoadFundsLine {
+    height: 5px;
+    width: 50%;
+    background-color: #a239ca;
+    margin-left: 25%;
+    margin-top: 12px;
+  }
+
+  .merchantSettlePhoneIconDiv {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .merchantMobileNumbDiv {
+    display: inline-block;
+  }
+  .userAvatar {
+    margin-top: 3%;
+    margin-left: 25%;
+    display: inline-block;
+  }
+  .logOut {
+    color: #bcbccb;
+    margin-top: 3%;
+    display: inline-block;
+  }
+  .MerchantAccountLimitInput {
+    margin-left: -78%;
+  }
+  .payerAccountLimitInput {
+    margin-left: -20%;
+  }
+  .merchantActivationCardView {
+    width: 103%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .merchantActionCardView {
+    width: 103%;
+    height: 520px;
+    margin-top: 0%;
+    margin-left: -1%;
+  }
+  .statementSettlementsCardView {
+    width: 103%;
+    height: 330px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .statementSettlementSubmit {
+    margin-top: 8% !important;
+    width: 15%;
+    margin-left: 33% !important;
+  }
+  .merchantAccountEnquiryCardView {
+    width: 103%;
+    height: 700px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .payerAccountEnquiryCardView {
+    width: 103%;
+    height: 700px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .accountEnquirycardView {
+    width: 103%;
+    height: 330px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .accountLabel {
+    margin-top: 5% !important;
+    display: inline-block;
+  }
+  .statementCardView {
+    width: 103%;
+    height: 550px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .merchantSettlementCardView {
+    width: 103%;
+    height: 550px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .loadFundsCardView {
+    width: 103%;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .payerLoadFundsInput {
+    margin-left: -20%;
+  }
+  .generateButton {
+    margin-top: 8% !important;
+    margin-left: 60% !important;
+    width: 34%;
+  }
+  .submitButton {
+    margin-top: 8% !important;
+    width: 34%;
+  }
+  .templateCardView {
+    width: 103%;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .templateAccountSubmit {
+    margin-top: 8% !important;
+    margin-left: 45% !important;
+    width: 17%;
+    text-align: center;
+  }
+
+  .payerTemplateCardView {
+    width: 103%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .payerTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 41% !important;
+    width: 17%;
+    text-align: center;
+  }
+  .merchantTemplateCardView {
+    width: 103%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .merchantTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 41% !important;
+    width: 17%;
+    text-align: center;
+  }
+  .profileCardView {
+    width: 95%;
+    margin-top: 2%;
+    height: 400px;
+    margin-left: 3%;
+  }
+  .cashRegisterCardView {
+    width: 103%;
+    height: 450px;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .helpCardView {
+    width: 103%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+  .merchantActivationCardTitle {
+    color: #4d4f5c;
+    font-size: 20px;
+  }
+
+  .statementSettlementCardTitle {
+    color: #4d4f5c;
+    font-size: 20px;
+  }
+  .statement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .settlement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .merchantPhoneIconDiv {
+    margin-top: 5%;
+  }
+
+  .merchantLabelInAccount {
+    font-size: medium;
+    margin-left: 5%;
+    color: #43425d;
+  }
+  .payerLabelInAccount {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .accountSubmit {
+    margin-top: 8% !important;
+    width: 12%;
+    margin-left: 43% !important;
+  }
+
+  .phoneDiv {
+    margin-top: 12%;
+    display: inline-block;
+  }
+
+  .margin {
+    margin-top: 5%;
+  }
+
+  .statusStyle {
+    margin-top: 1%;
+    width: 280px;
+    margin-left: 1%;
+  }
+  .activationSubmit {
+    margin-top: 10% !important;
+    width: 27%;
+    margin-left: 80% !important;
+  }
+  .displayInline {
+    display: inline-block;
+  }
+  .accountEnquiryCardTitle {
+    color: #4d4f5c;
+    font-size: large;
+  }
+  .loginText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 115px;
+    text-align: center;
+    width: 33%;
+    color: #808080;
+  }
+  .forgotPassText {
+    font-size: 14px;
+    margin-left: 198px;
+    font-style: italic;
+    margin-top: 4%;
+  }
+  .loginButton {
+    margin-left: 115px !important;
+    margin-top: 5% !important;
+    width: 33%;
+    font-size: 13px !important;
+  }
+  .quarterMargin {
+    margin-left: 0%;
+    margin-top: 25%;
+  }
+  .userImage {
+    width: 24px;
+    height: 24px;
+    margin-top: 43px;
+  }
+  .passImage {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+  }
+  .bckgImage {
+    width: 100%;
+    background-image: url("../src/assets/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 60%;
+    margin-top: 0%;
+    width: 25%;
+  }
+  .logo-svg {
+    margin-top: 2%;
+    color: white;
+    margin-left: 60%;
+    font-size: 25px;
+  }
+
+  .cusMarginLeft {
+    margin-left: 0%;
+  }
+  .payerInTemplate {
+    font-size: medium;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+  .merchantInTemplate {
+    font-size: medium;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+
+  .templateAccountIcon {
+    margin-top: 40px;
+  }
+
+  .profileSubmit {
+    margin-top: 50px !important;
+    margin-left: 42% !important;
+    width: 100px;
+  }
+  .profileEditBtn {
+    margin-left: -5px !important;
+    width: 100px;
+  }
+  .userIconProfile {
+    width: 21px;
+    height: 21px;
+    margin-top: 38px;
+  }
+  .phoneIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 38px;
+  }
+  .locationIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 38px;
+  }
+  .mailIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 38px;
+  }
+  .profileCardTitle {
+    font-size: 20px;
+  }
+
+  /* .forgotPassSubmitBtn {
+    margin-top: 10% !important;
+    margin-left: 22% !important;
+    width: 26%;
+    font-size: 12px !important;
+  } */
+
+  .forgotPasswordTextP {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: %; */
+    margin-left: 55px;
+    color: #808080;
+  }
+  .forgotPassSubmitBtn {
+    margin-top: 10% !important;
+    margin-left: 80px !important;
+    width: 110px;
+    font-size: 12px !important;
+  }
+  .userIconInForgotPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    color: #808080;
+  }
+  .BackToLoginDiv {
+    margin-left: 90px;
+    margin-top: 4%;
+  }
+  .resetPassWordText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 80px;
+    color: #808080;
+  }
+  .resetPassSubmitBtn {
+    margin-top: 9% !important;
+    margin-left: 118px !important;
+    font-size: 12px;
+    width: 100px;
+  }
+  .passIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 35px !important;
+  }
+  .userIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px !important;
+  }
+  .resetPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    text-align: center;
+
+    width: 60%;
+  }
+  .forgotPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    width: 200px;
+  }
+  .forgotPassMargin {
+    margin-left: 50px;
+    margin-top: 25%;
+  }
+  .resetPassMargin {
+    margin-left: 10px;
+  }
+  .loginErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 75px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 180px;
+  }
+  .profileErrorStyle {
+    margin-left: 39%;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 130px;
+  }
+  .textFieldMargin {
+    margin-left: 10px;
+    width: 256px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 620px) {
+  .outlooklogo {
+    margin-left: -190px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 620px) and (max-width: 640px) {
+  .outlooklogo {
+    margin-left: -190px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+@media (min-width: 641px) and (max-width: 700px) {
+  .outlooklogo {
+    margin-left: -219px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+  .outlooklogo {
+    margin-left: -263px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 859px) {
+  .outlooklogo {
+    margin-left: -395px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 859px) and (max-width: 900px) {
+  .outlooklogo {
+    margin-left: -469px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 970px) {
+  .outlooklogo {
+    margin-left: -501px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1024px) {
+  .outlooklogo {
+    margin-left: -561px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .outlooklogo {
+    margin-left: -561px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .outlooklogo {
+    margin-left: -561px;
+    margin-top: 125px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .merchantActivationCardView {
+    width: 110%;
+    margin-left: -4%;
+    margin-top: 2%;
+  }
+  .merchantActionCardView {
+    width: 110%;
+    height: 800px;
+    margin-top: 0%;
+    margin-left: -4%;
+  }
+  .statementSettlementsCardView {
+    width: 110%;
+    height: 350px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .merchantSettlementCardView {
+    width: 110%;
+    height: 650px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .statementCardView {
+    width: 110%;
+    height: 650px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .accountEnquirycardView {
+    width: 110%;
+    height: 300px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .payerAccountEnquiryCardView {
+    width: 110%;
+    height: 900px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .merchantAccountEnquiryCardView {
+    width: 110%;
+    height: 800px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .loadFundsCardView {
+    width: 110%;
+    height: 600px;
+    margin-top: 0%;
+    margin-left: -5%;
+  }
+  .templateCardView {
+    width: 110%;
+    height: 300px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .payerTemplateCardView {
+    width: 110%;
+    height: 500px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .merchantTemplateCardView {
+    width: 110%;
+    height: 620px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .profileCardView {
+    width: 100%;
+    margin-top: 1%;
+    height: 500px;
+    margin-left: 0%;
+  }
+  .cashRegisterCardView {
+    width: 110%;
+    height: 710px;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .helpCardView {
+    width: 110%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: -5%;
+  }
+  .merchantActivation {
+    width: 100%;
+    height: 179px;
+    border: #43425d;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 20% !important;
+    font-size: 12px !important;
+    color: #43425d !important;
+  }
+  .merchantActLine {
+    height: 5px;
+    width: 60%;
+    background-color: #54a4f3;
+    margin-left: 20%;
+    margin-top: 12px;
+  }
+  .stateSettle {
+    width: 100%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 18% !important;
+    color: #43425d !important;
+    font-size: 12px !important;
+  }
+  .stateSettleLine {
+    height: 5px;
+    width: 74%;
+    background-color: #54f3ae;
+    margin-left: 13%;
+    margin-top: 12px;
+  }
+  .systemLog {
+    width: 100%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 11% !important;
+    color: #43425d !important;
+    font-size: 12px !important;
+  }
+
+  .systemLogLine {
+    height: 5px;
+    width: 34%;
+    background-color: #ff533d;
+    margin-left: 33%;
+    margin-top: 12px;
+  }
+  .payerAccountEnquiry {
+    width: 100%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important  ;
+    margin-left: 20% !important;
+    color: #43425d !important;
+    font-size: 12px !important;
+  }
+  .payerAccountEnquiryLine {
+    height: 5px;
+    width: 48%;
+    background-color: #a239ca;
+    margin-left: 26%;
+    margin-top: 12px;
+  }
+  .payerLoadFunds {
+    width: 100%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 18% !important;
+    color: #43425d !important;
+    font-size: 12px !important;
+  }
+
+  .payerLoadFundsLine {
+    height: 5px;
+    width: 50%;
+    background-color: #a239ca;
+    margin-left: 25%;
+    margin-top: 12px;
+  }
+
+  .merchantSettlePhoneIconDiv {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .merchantMobileNumbDiv {
+    display: inline-block;
+  }
+  .userAvatar {
+    margin-top: 3%;
+    margin-left: -10px;
+    display: inline-block;
+  }
+  .logOut {
+    color: #bcbccb;
+    margin-top: 3%;
+    display: inline-block;
+    margin-left: -20px;
+  }
+
+  .merchantActivationCardTitle {
+    color: #4d4f5c;
+    font-size: 20px;
+  }
+
+  .statementSettlementCardTitle {
+    color: #4d4f5c;
+    font-size: 20px;
+  }
+  .statement {
+    font-size: medium;
+    margin-left: 17%;
+    color: #43425d;
+  }
+  .settlement {
+    font-size: medium;
+    margin-left: 40%;
+    color: #43425d;
+  }
+  .merchantPhoneIconDiv {
+    margin-top: 10%;
+  }
+  .statementSettlementSubmit {
+    margin-top: 8% !important;
+    width: 20%;
+    margin-left: 20% !important;
+  }
+
+  .merchantLabelInAccount {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .payerLabelInAccount {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .accountSubmit {
+    margin-top: 8% !important;
+    width: 20%;
+    margin-left: 30% !important;
+  }
+  .accountLabel {
+    display: block;
+  }
+
+  .phoneDiv {
+    margin-top: 12%;
+    display: inline-block;
+  }
+  .generateButton {
+    margin-top: 8% !important;
+    margin-left: 28% !important;
+    width: 100px;
+  }
+  .submitButton {
+    margin-top: 8% !important;
+    width: 75px;
+    margin-left: -34% !important;
+  }
+
+  .margin {
+    margin-top: 5%;
+  }
+
+  .statusStyle {
+    width: 280px;
+    margin-left: 1%;
+  }
+  .activationSubmit {
+    margin-top: 10% !important;
+    width: 27%;
+    margin-left: 22% !important;
+  }
+
+  .displayInline {
+    display: inline-block;
+  }
+  .accountEnquiryCardTitle {
+    color: #4d4f5c;
+    font-size: large;
+  }
+  .loginText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    color: #808080;
+    width: 30%;
+    text-align: center;
+  }
+  .forgotPassText {
+    font-size: 14px;
+    margin-left: 205px;
+    font-style: italic;
+    margin-top: 4%;
+  }
+  .loginButton {
+    margin-left: 90px !important;
+    margin-top: 5% !important;
+    width: 30%;
+    font-size: 13px !important;
+  }
+  .quarterMargin {
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  .userImage {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+  }
+  .passImage {
+    width: 24px;
+    height: 24px;
+    margin-top: -5px;
+  }
+  .bckgImage {
+    background-image: url("../src/assets/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50vh;
+  }
+  .logo {
+    margin-left: 36%;
+    margin-top: 0%;
+    width: 20%;
+  }
+  .logo-svg {
+    margin-top: 2%;
+    color: white;
+    margin-left: 37%;
+    font-size: 20px;
+  }
+
+  .cusMarginLeft {
+    margin-left: 0%;
+  }
+  .payerInTemplate {
+    font-size: medium;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+  .merchantInTemplate {
+    font-size: medium;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+
+  .templateAccountSubmit {
+    margin-top: 8% !important;
+    margin-left: 20% !important;
+    width: 17%;
+  }
+
+  .merchantTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 125px !important;
+    width: 17%;
+    text-align: center;
+  }
+
+  .payerTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 113px !important;
+    width: 19%;
+    text-align: center;
+  }
+
+  .profileSubmit {
+    margin-top: 50px !important;
+    margin-left: 140px !important;
+    width: 100px;
+  }
+  .profileEditBtn {
+    margin-left: 15% !important;
+    width: 100px;
+  }
+  .userIconProfile {
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+  }
+  .phoneIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .locationIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .mailIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .profileCardTitle {
+    font-size: 20px;
+  }
+  .forgotPasswordTextP {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 58px;
+    color: #808080;
+  }
+  .forgotPassSubmitBtn {
+    margin-top: 10% !important;
+    margin-left: 80px !important;
+    width: 110px;
+    font-size: 12px !important;
+  }
+  .userIconInForgotPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    color: #808080;
+  }
+  .BackToLoginDiv {
+    margin-left: 90px;
+    margin-top: 4%;
+  }
+  .resetPassWordText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 80px;
+    color: #808080;
+  }
+  .resetPassSubmitBtn {
+    margin-top: 9% !important;
+    margin-left: 120px !important;
+    font-size: 12px;
+    width: 100px;
+  }
+  .passIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 35px !important;
+  }
+  .userIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px !important;
+  }
+  .resetPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    text-align: center;
+
+    width: 50%;
+  }
+  .forgotPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    width: 200px;
+  }
+  .forgotPassMargin {
+    margin-left: 150px;
+    margin-top: 10%;
+  }
+  .resetPassMargin {
+    /* margin-left: 110px; */
+    margin-left: 25%;
+  }
+  .loginErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 35px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 50%;
+  }
+  .profileErrorStyle {
+    margin-left: 125px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 130px;
+  }
+  .textFieldMargin {
+    margin-left: 10px;
+    width: 256px !important;
+  }
+  .payerLoadFundsInput {
+    margin-left: -23%;
+  }
+}
+@media (min-width: 421px) and (max-width: 435px) {
+  .outlooklogo {
+    margin-left: -117px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+@media (min-width: 435px) and (max-width: 473px) {
+  .outlooklogo {
+    margin-left: -142px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 473px) and (max-width: 503px) {
+  .outlooklogo {
+    margin-left: -162px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 503px) and (max-width: 550px) {
+  .outlooklogo {
+    margin-left: -182px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 575px) {
+  .outlooklogo {
+    margin-left: -192px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -40px !important;
+    width: 53% !important;
+  }
+}
+@media (min-width: 421px) and (max-width: 575px) {
+  .payerLoadFundsInput {
+    margin-left: -84%;
+  }
+
+  .merchantActivationCardView {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 2%;
+  }
+
+  .merchantActionCardView {
+    width: 110%;
+    height: 800px;
+    margin-top: -1%;
+    margin-left: -5%;
+  }
+  .statementSettlementsCardView {
+    width: 110%;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .merchantSettlementCardView {
+    width: 110%;
+    height: 610px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .statementCardView {
+    width: 110%;
+    height: 650px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .accountEnquirycardView {
+    width: 110%;
+    height: 330px;
+    margin-top: 2;
+    margin-left: -5%;
+  }
+  .merchantAccountEnquiryCardView {
+    width: 110%;
+    height: 1000px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .payerAccountEnquiryCardView {
+    width: 110%;
+    height: 1000px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .profileCardView {
+    width: 100%;
+    margin-top: 1%;
+    height: 510px;
+    margin-left: 0%;
+  }
+  .helpCardView {
+    width: 110%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .payerAccountLimitInput {
+    margin-left: -10%;
+  }
+  .merchantActivation {
+    width: 85%;
+    height: 179px;
+    border: #43425d;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    font-size: 15px !important;
+    color: #43425d !important;
+  }
+  .merchantActLine {
+    height: 5px;
+    width: 60%;
+    background-color: #54a4f3;
+    margin-left: 20%;
+    margin-top: 12px;
+  }
+  .stateSettle {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .stateSettleLine {
+    height: 5px;
+    width: 74%;
+    background-color: #54f3ae;
+    margin-left: 13%;
+    margin-top: 12px;
+  }
+  .systemLog {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .systemLogLine {
+    height: 5px;
+    width: 34%;
+    background-color: #ff533d;
+    margin-left: 33%;
+    margin-top: 12px;
+  }
+  .payerAccountEnquiry {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important  ;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .payerAccountEnquiryLine {
+    height: 5px;
+    width: 48%;
+    background-color: #a239ca;
+    margin-left: 26%;
+    margin-top: 12px;
+  }
+  .loadFundsCardView {
+    width: 110%;
+    height: 450px;
+    margin-top: 0%;
+    margin-left: -5%;
+  }
+  .cashRegisterCardView {
+    width: 110%;
+    height: 640px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .templateCardView {
+    width: 110%;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .payerTemplateCardView {
+    width: 110%;
+    height: 500px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+  .merchantTemplateCardView {
+    width: 110%;
+    height: 530px;
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+
+  .payerLoadFunds {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .payerLoadFundsLine {
+    height: 5px;
+    width: 50%;
+    background-color: #a239ca;
+    margin-left: 25%;
+    margin-top: 12px;
+  }
+
+  .merchantSettlePhoneIconDiv {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .merchantMobileNumbDiv {
+    display: inline-block;
+  }
+  .userAvatar {
+    margin-top: 0%;
+    margin-left: 60%;
+    display: inline-block;
+  }
+  .logOut {
+    color: #bcbccb;
+    margin-top: 0%;
+    display: inline-block;
+    margin-left: 20%;
+  }
+
+  .merchantActivationCardTitle {
+    color: #4d4f5c;
+    font-size: 15px;
+  }
+
+  .statementSettlementCardTitle {
+    color: #4d4f5c;
+    font-size: medium;
+  }
+  .statement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+    font-weight: bold;
+  }
+  .settlement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .merchantPhoneIconDiv {
+    margin-top: 10%;
+  }
+  .statementSettlementSubmit {
+    margin-top: 8% !important;
+    width: 25%;
+    margin-left: 32% !important;
+  }
+
+  .merchantLabelInAccount {
+    font-size: larger;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .payerLabelInAccount {
+    font-size: larger;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .accountSubmit {
+    margin-top: 8% !important;
+    width: 31%;
+    margin-left: 29% !important;
+  }
+
+  .margin {
+    margin-top: 5%;
+  }
+
+  .activationSubmit {
+    margin-top: 10% !important;
+    width: 29%;
+    margin-left: 23% !important;
+  }
+
+  .submitButton {
+    margin-top: 10% !important;
+    width: 75px;
+    margin-left: 40px !important;
+    /* margin-left: 10px !important; */
+  }
+  .generateButton {
+    margin-top: 10% !important;
+    margin-left: 60px !important;
+    width: 100px;
+    /* width: 80%; */
+  }
+  .displayInline {
+    display: inline-block;
+  }
+  .text {
+    margin-left: 10px;
+    width: 230px;
+    margin-top: 15%;
+  }
+  .accountEnquiryCardTitle {
+    color: #4d4f5c;
+    font-size: medium;
+  }
+  .loginText {
+    /* background-color: pink; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 110px;
+    color: #808080;
+    /*   */
+    text-align: center;
+    width: 30%;
+    /* padding-right: 35px; */
+  }
+  .forgotPassText {
+    font-size: 14px;
+    margin-left: 195px;
+    font-style: italic;
+    margin-top: 4%;
+  }
+  .loginButton {
+    margin-left: 110px !important;
+    margin-top: 8% !important;
+    width: 30%;
+    font-size: 13px !important;
+  }
+  .quarterMargin {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .userImage {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  .passImage {
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+  }
+  .bckgImage {
+    /* width: 100vw; */
+    height: 50vh;
+    background-image: url("../src/assets/login.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* height: auto; */
+  }
+  .logo {
+    margin-left: 40%;
+    margin-top: 0%;
+    width: 20%;
+  }
+  .logo-svg {
+    margin-top: 2%;
+    color: white;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+
+  .cusMarginLeft {
+    margin-left: 0%;
+  }
+  .payerInTemplate {
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+  .merchantInTemplate {
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+
+  .templateCardViewTitle {
+    color: #4d4f5c;
+    font-size: small;
+  }
+  .templateAccountSubmit {
+    margin-top: 8% !important;
+    margin-left: 30% !important;
+    width: 32%;
+    text-align: center;
+  }
+
+  .merchantTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 100px !important;
+    width: 32%;
+    text-align: center;
+  }
+
+  .payerTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 107px !important;
+    width: 85px;
+    text-align: center;
+  }
+
+  .profileSubmit {
+    margin-top: 50px !important;
+    margin-left: 120px !important;
+    width: 100px;
+  }
+  .profileEditBtn {
+    /* margin-left: -30px !important; */
+    width: 100px;
+  }
+  .userIconProfile {
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+  }
+  .phoneIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .locationIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .mailIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .profileCardTitle {
+    font-size: 15px;
+  }
+  .forgotPasswordTextP {
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-top: 30%; */
+    margin-left: 70px;
+    color: #808080;
+  }
+  .forgotPassSubmitBtn {
+    margin-top: 10% !important;
+    margin-left: 70px !important;
+    width: 90px;
+    font-size: 8px !important;
+  }
+  .userIconInForgotPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    color: #808080;
+  }
+  .BackToLoginDiv {
+    margin-left: 72px;
+    margin-top: 4%;
+  }
+  .resetPassWordText {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #808080;
+  }
+  .resetPassSubmitBtn {
+    margin-top: 9% !important;
+    margin-left: 110px !important;
+    font-size: 12px;
+    width: 100px;
+  }
+  .passIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 35px !important;
+  }
+  .userIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px !important;
+  }
+  .resetPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    text-align: center;
+
+    width: 200px;
+  }
+  .forgotPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: -30px;
+
+    margin-top: 20px;
+
+    /* text-align: center; */
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 12px;
+
+    width: 300px !important;
+  }
+  .forgotPassMargin {
+    margin-left: 100px;
+    margin-top: 10%;
+  }
+  .resetPassMargin {
+    margin-left: 80px;
+  }
+  .loginErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 67px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    width: 100%;
+  }
+  .profileErrorStyle {
+    margin-left: 105px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 130px;
+  }
+  .textFieldMargin {
+    margin-left: 10px;
+    width: 256px !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 420px) {
+  .merchantActionCardView {
+    width: 140%;
+    height: 800px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .merchantActivationCardView {
+    width: 140%;
+    margin-left: -20%;
+    margin-top: -6%;
+  }
+  .outlooklogo {
+    margin-left: -117px;
+    margin-top: -140px;
+  }
+  .outlookbuttonlogo {
+    margin-left: -47px !important;
+    width: 53% !important;
+  }
+  .statementSettlementsCardView {
+    width: 140%;
+    height: 300px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .statementCardView {
+    width: 140%;
+    height: 650px;
+    margin-top: -7%;
+    margin-left: -20%;
+  }
+  .merchantSettlementCardView {
+    width: 140%;
+    height: 610px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .accountEnquirycardView {
+    width: 140%;
+    height: 260px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .merchantAccountEnquiryCardView {
+    width: 140%;
+    height: 1000px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .payerAccountEnquiryCardView {
+    width: 140%;
+    height: 1000px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .helpCardView {
+    width: 135%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: -17%;
+  }
+  .cashRegisterCardView {
+    width: 135%;
+    height: 640px;
+    margin-top: -3%;
+    margin-left: -17%;
+  }
+  .templateCardView {
+    width: 137%;
+    height: 300px;
+    margin-top: -3%;
+    margin-left: -18%;
+  }
+  .profileCardView {
+    width: 103%;
+    margin-top: -3%;
+    height: 500px;
+    margin-left: -4%;
+  }
+  .payerTemplateCardView {
+    width: 138%;
+    height: 500px;
+    margin-top: -4%;
+    margin-left: -18%;
+  }
+  .payerAccountLimitInput {
+    margin-left: -15%;
+  }
+  .payerTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 102px !important;
+    width: 85px;
+    text-align: center;
+  }
+  .merchantTemplateCardView {
+    width: 138%;
+    height: 530px;
+    margin-top: -4%;
+    margin-left: -18%;
+  }
+  .loadFundsCardView {
+    width: 140%;
+    height: 500px;
+    margin-top: -6%;
+    margin-left: -20%;
+  }
+  .payerLoadFundsInput {
+    margin-left: -72%;
+    margin-top: 0%;
+  }
+  .MerchantAccountLimitInput {
+    margin-left: -15%;
+  }
+  .merchantActivation {
+    width: 85%;
+    height: 179px;
+    border: #43425d;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    font-size: 15px !important;
+    color: #43425d !important;
+  }
+  .merchantActLine {
+    height: 5px;
+    width: 60%;
+    background-color: #54a4f3;
+    margin-left: 20%;
+    margin-top: 12px;
+  }
+  .stateSettle {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .stateSettleLine {
+    height: 5px;
+    width: 74%;
+    background-color: #54f3ae;
+    margin-left: 13%;
+    margin-top: 12px;
+  }
+  .systemLog {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .systemLogLine {
+    height: 5px;
+    width: 34%;
+    background-color: #ff533d;
+    margin-left: 33%;
+    margin-top: 12px;
+  }
+  .payerAccountEnquiry {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important  ;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+  .payerAccountEnquiryLine {
+    height: 5px;
+    width: 48%;
+    background-color: #a239ca;
+    margin-left: 26%;
+    margin-top: 12px;
+  }
+  .payerLoadFunds {
+    width: 85%;
+    height: 179px;
+    border: aliceblue;
+    background-color: white !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+    color: #43425d !important;
+    font-size: 15px !important;
+  }
+
+  .payerLoadFundsLine {
+    height: 5px;
+    width: 50%;
+    background-color: #a239ca;
+    margin-left: 25%;
+    margin-top: 12px;
+  }
+
+  .merchantSettlePhoneIconDiv {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .merchantMobileNumbDiv {
+    display: inline-block;
+  }
+  .userAvatar {
+    margin-top: 0%;
+    margin-left: 16%;
+    display: inline-block;
+  }
+  .logOut {
+    color: #bcbccb;
+    margin-top: 0%;
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+  .merchantActivationCardTitle {
+    color: #4d4f5c;
+    font-size: 15px;
+  }
+
+  .statementSettlementCardTitle {
+    color: #4d4f5c;
+    font-size: medium;
+  }
+  .statement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+    font-weight: bold;
+  }
+  .settlement {
+    font-size: medium;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .merchantPhoneIconDiv {
+    margin-top: 10%;
+  }
+  .statementSettlementSubmit {
+    margin-top: 8% !important;
+    width: 25%;
+    margin-left: 32% !important;
+  }
+
+  .merchantLabelInAccount {
+    font-size: larger;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .payerLabelInAccount {
+    font-size: larger;
+    margin-left: 0%;
+    color: #43425d;
+  }
+  .accountSubmit {
+    margin-top: 8% !important;
+    width: 31%;
+    margin-left: 29% !important;
+  }
+
+  .margin {
+    margin-top: 5%;
+  }
+
+  .activationSubmit {
+    margin-top: 10% !important;
+    width: 30%;
+    margin-left: 98px !important;
+  }
+
+  .submitButton {
+    margin-top: 10% !important;
+    width: 75px;
+    margin-left: 60px !important;
+  }
+  .generateButton {
+    margin-top: 10% !important;
+    margin-left: 55px !important;
+    width: 100px;
+  }
+  .displayInline {
+    display: inline-block;
+  }
+  .text {
+    margin-left: 10px;
+    width: 230px;
+    margin-top: 15%;
+  }
+  .accountEnquiryCardTitle {
+    color: #4d4f5c;
+    font-size: medium;
+  }
+  .loginText {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 110px;
+    color: #808080;
+    width: 30%;
+    text-align: center;
+  }
+  .forgotPassText {
+    font-size: 14px;
+    margin-left: 171px;
+    font-style: italic;
+    margin-top: 4%;
+  }
+  .loginButton {
+    margin-left: 110px !important;
+    margin-top: 8% !important;
+    width: 30%;
+    font-size: 13px !important;
+  }
+  .quarterMargin {
+    margin-left: 10px;
+    margin-top: 5%;
+  }
+  .userImage {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  .passImage {
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+  }
+  .bckgImage {
+    /* width: 100vw; */
+    height: 50vh;
+    background-image: url("../src/assets/login.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* height: auto; */
+  }
+  .logo {
+    margin-left: 40%;
+    margin-top: 0%;
+    width: 20%;
+  }
+  .logo-svg {
+    margin-top: 2%;
+    color: white;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+
+  .cusMarginLeft {
+    margin-left: 0%;
+  }
+  .payerInTemplate {
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+  .merchantInTemplate {
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 15%;
+    color: #43425d;
+  }
+
+  .templateCardViewTitle {
+    color: #4d4f5c;
+    font-size: small;
+  }
+  .templateAccountSubmit {
+    margin-top: 8% !important;
+    margin-left: 30% !important;
+    width: 32%;
+    text-align: center;
+  }
+
+  .merchantTemplateSubmit {
+    margin-top: 8% !important;
+    margin-left: 100px !important;
+    width: 32%;
+    text-align: center;
+  }
+
+  .profileSubmit {
+    margin-top: 50px !important;
+    margin-left: 120px !important;
+    width: 100px;
+  }
+  .profileEditBtn {
+    /* margin-left: -30px !important; */
+    width: 100px;
+  }
+  .userIconProfile {
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+  }
+  .phoneIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .locationIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .mailIconProfile {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .profileCardTitle {
+    font-size: 15px;
+  }
+  .forgotPasswordTextP {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 70px;
+    color: #808080;
+  }
+  .forgotPassSubmitBtn {
+    margin-top: 10% !important;
+    margin-left: 70px !important;
+    width: 90px;
+    font-size: 8px !important;
+  }
+  .userIconInForgotPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    color: #808080;
+  }
+  .BackToLoginDiv {
+    margin-left: 71px;
+    margin-top: 4%;
+  }
+  .resetPassWordText {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #808080;
+  }
+  .resetPassSubmitBtn {
+    margin-top: 9% !important;
+    margin-left: 110px !important;
+    font-size: 12px;
+    width: 100px;
+  }
+  .passIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 35px !important;
+  }
+  .userIconInResetPass {
+    width: 24px;
+    height: 24px;
+    margin-top: 38px !important;
+  }
+  .resetPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    text-align: center;
+
+    width: 200px;
+  }
+  .forgotPassErrorStyle {
+    margin-right: 150px;
+
+    margin-left: -30px;
+
+    margin-top: 20px;
+
+    /* text-align: center; */
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 12px;
+
+    width: 300px !important;
+  }
+  .forgotPassMargin {
+    margin-left: 50px;
+
+    margin-top: 10%;
+  }
+  .resetPassMargin {
+    margin-left: 30px;
+  }
+  .loginErrorStyle {
+    margin-right: 150px;
+
+    margin-left: 73px;
+
+    margin-top: 20px;
+
+    /* text-align: center; */
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 12px;
+    /* background-color: aliceblue; */
+    width: 100%;
+  }
+  .profileErrorStyle {
+    margin-left: 105px;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    font-style: italic;
+
+    color: red;
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 130px;
+  }
+  .textFieldMargin {
+    margin-left: 10px;
+    width: 230px !important;
+  }
+}
